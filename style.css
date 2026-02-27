@@ -20,8 +20,11 @@ background-color: pink;
    display:flex;
 }
 .menu a{
-     padding:15px 20px;
-     
+     padding:15px 20px;   
+}
+.menu hover{
+background-color: white;   
+    color: black;
 }
 .content{
    flex:70%;
