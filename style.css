@@ -13,7 +13,7 @@ background-color: pink;
 }
 .content{
    flex:70%;
-   background-color:lightblue;
+   background-color:white;
 }
 .footer{
    flex:10%;
