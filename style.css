@@ -12,7 +12,7 @@
 }
 .header{
  flex:15%;
-   background:url ("unnamed (1).png") center /100%;
+   background: url ("unnamed (1).png") center /100%;
     aspect-ratio:6/1; 
 }
 .menu{
