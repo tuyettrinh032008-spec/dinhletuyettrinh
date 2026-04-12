@@ -1,17 +1,17 @@
 <html>
-     <head>
+<head>
   <meta charset = " utf-8">
-    </head>
+</head>
     <body>
       <p id="kq"></p>
       <script>
         let pp = new URLSearchParams(window.location.search);
         let ten = pp.get ("txtTen");
         let yk = pp.get ("txtComment");
-        document.getElementById("kq").innerHTML = "Cảm ơn bạn + ten ;
-      </script>
-       Cảm ơn bạn đã đã góp ý<br>
-      Chúng tôi xin ghi nhận ý kiến và đánh giá của bạn
-     
+        document.getElementById("kq").innerHTML = "Cảm ơn bạn" + ten + " đã góp ý.<br> + yk;
+             </script>
+       <form action= "Bai7-NV2.html">
+            <input type = "submit" name= "back" value= " Quay lại">
+       </form>
     </body>
 </html>
